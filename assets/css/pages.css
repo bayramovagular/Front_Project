@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+#pages{
+    background-image: url("https://preview.colorlib.com/theme/karma/img/banner/common-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 130px 0 0;
+    margin: 0 0 100px;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px; 
+    h1{
+        color: white;
+        font: 36px "Poppins";
+    }
+    a{
+        color: white;
+        font: 14px "Roboto";
+    }
+}
+
+.navbar{
+    z-index: 1;
+}
+
+

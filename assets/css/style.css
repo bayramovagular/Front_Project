@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#hero{
+    width: 100%;
+    height: 55.6rem;
+   padding: 300px 0 100px !important;
+    background-image:url(https://preview.colorlib.com/theme/karma/img/banner/banner-bg.jpg);
+    .product_button{
+        button {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: none;
+            background-image: linear-gradient(0, yellow, rgb(255, 42, 0));
+            color: white;
+            font-size: 14px;
+            font-weight: bolder;
+            margin-right: 15px;
+          }
+
+    }
+    
+}
+ 
+
+.row{
+    h1{
+     font: bolder 60px "Poppins";
+     margin: 0 0 30px;
+    }
+    
+}
+
+.shopping{
+    padding: 90px 0;
+    .images{
+        width: 100%;
+        height:44.3rem;
+    }
+    
+}
+
+.images{
+    .image{
+        width: 100%;
+        height: 100%;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+   
+}
+
+#comming_soon {
+  padding: 100px 0;
+  #time {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../images/exclusive.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px 0;
+  }
+  .overlay {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h1 {
+      font: 500 36px "Poppins";
+      margin: 0;
+    }
+    p {
+      font: 14px "Roboto";
+      margin: 0 0 30px;
+    }
+    #comming_time {
+      color: black;
+      background-color: white;
+      margin: auto !important;
+      border-radius: 8px;
+      h1 {
+        font: 500 36px "Poppins";
+      }
+      span {
+        font: 14px "Roboto";
+      }
+    }
+    button {
+      width: 132px;
+      height: 50px;
+      padding: 0 20px;
+      margin: 40px 0 0;
+      border: none;
+      border-radius: 25px;
+      background-image: linear-gradient(0, yellow, rgb(255, 42, 0));
+      text-transform: uppercase;
+      font: 14px "Roboto";
+      color: #ffffff;
+    }
+  }
+  .product {
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    align-content: center;
+    text-align: center;
+    background-color: #f9f9ff;
+    .price {
+      display: flex;
+      justify-content: center;
+      h6 {
+        font: 500 14px "Poppins";
+        padding: 0 15px 0 0;
+        margin: 0 0 15px;
+        del {
+          color: #cccccc;
+        }
+      }
+    }
+    h4 {
+      text-align: center;
+      font: 500 24px "Poppins";
+      text-transform: uppercase;
+      margin: 0 0 8px;
+    }
+    .product_button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      button {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: none;
+        background-image: linear-gradient(0, yellow, rgb(255, 42, 0));
+        color: white;
+        font-size: 14px;
+        font-weight: bolder;
+        margin-right: 15px;
+      }
+      span {
+        text-transform: uppercase;
+        font: 500 12px "Poppins";
+      }
+    }
+  }
+}
+
+.Products{
+  span{
+      display: block;
+      width: 30px;
+      height: 30px;
+      color: white;
+      background-color: #828bb2;
+      border-radius: 50%;
+      align-content: center;
+      text-align: center;
+  }
+
+  .price{
+      display: flex;
+      gap: 1.5rem;
+      del{
+          color: #777777;
+      }
+  }
+
+  .icon{
+      display: flex;
+     gap: 0.7rem;
+  }
+  img{
+      padding-top: 2rem;
+      margin: 0 0 20px;
+  }
+
+  .img-fluid{
+      width: 25rem !important;
+      height: 20rem !important;
+  }
+}
+
+
+.sponsor{
+  padding: 150px 0;
+  img{
+      opacity: 0.3;
+      transition: 0.3s;
+      cursor: pointer;
+  }
+  img:hover{
+      opacity: 1;
+  }
+}
+
+
+
+.Deals{
+    padding: 50px 0;
+    del{
+        text-decoration: line-through;
+        color: #777777;
+    }
+    .desc a:hover{
+        text-decoration: none;
+       color: orange;
+    }
+    
+    .desc a{
+        text-decoration: none;
+      color: black;
+    }
+
+    .disc{
+        width: 5.5rem;
+        height: 5.5rem;
+        padding: 0.5rem;
+    }
+    .ctg-right{
+        width: 100%;
+        img{
+            width: 90%;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    padding: 100px 0;
+    h5{
+        color: white;
+    }
+    p{
+        color: #777777;
+    }
+    a{
+        color: white;
+    }
+    .stay{
+       img{
+        margin: 3px ;
+       }
+    }
+ 
+}
+
+
